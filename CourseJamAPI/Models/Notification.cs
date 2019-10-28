@@ -6,6 +6,6 @@ namespace CourseJamAPI.Models
     {
         public int Id { get; set; }
         public string Content { get; set; }
-        public List<User> Users { get; set; }
+        public List<UserNotification> UserNotifications { get; set; }
     }
 }

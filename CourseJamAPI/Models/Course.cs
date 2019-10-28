@@ -2,5 +2,7 @@
 {
     public class Course
     {
+        public List<CourseInterest> CourseInterests { get; set; }
+
     }
 }

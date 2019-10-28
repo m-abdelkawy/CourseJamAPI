@@ -16,6 +16,6 @@ namespace CourseJamAPI.Models
         public int Chairs { get; set; }
         public int CourseId { get; set; }
         public Course Course { get; set; }
-        public List<Student> Strudents { get; set; }
+        public List<StudentGroup> StudentGroups { get; set; }
     }
 }
